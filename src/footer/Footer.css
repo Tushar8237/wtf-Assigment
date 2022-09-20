@@ -1,0 +1,121 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    margin: 0 50px;
+    background-color: black;
+}
+
+
+
+.social_link {
+    width: 30%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.social_link > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+
+.instagram {
+    font-size: 25px;
+    color: #ec18be;
+}
+
+.face {
+    font-size: 30px;
+    color: rgb(9, 65, 206);
+}
+
+.link {
+    font-size: 25px;
+    color: rgb(9, 65, 206);
+}
+
+.quick_link {
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quick_link > h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quick_link > p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0px;
+
+}
+
+.div3 {
+    width: 13%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.explore_section {
+    margin-bottom: 155px;
+}
+
+.explore_section > h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.explore_section > p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0px;
+}
+
+
+.div4 {
+    width: 30%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact_section {
+    margin-bottom: 75px;
+}
+
+
+.contact_section > h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact_section > p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0px;
+
+}
+
+.icon {
+    margin: 0 10px;
+}
+
+/* responsive */
+

@@ -1,0 +1,62 @@
+
+.gym_card {
+    text-decoration: none;
+}
+.gym_container {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,23,23,1) 35%, rgba(16,85,99,1) 100%);
+    margin: 2rem;
+}
+
+.book_btn {
+    width: 40rem; 
+    height: auto;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column; 
+    margin-top: 8rem;
+}
+.book_btn > button {
+   padding: 1rem;
+   color: white;
+   background-color: rgb(182, 9, 9);
+   border: none;
+   border-radius: 10px;
+   margin-top: 2rem;
+   margin-right: 2rem;
+}
+
+.gym_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5rem;
+}
+
+.top > span {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+}
+
+.bottom > span {
+    font-size: 1.8rem;
+    color: yellow;
+    font-weight: 600;
+}
+
+.top > h3{
+    color: white;
+    font-size: 1rem;
+}
+
+.gym_image {
+    max-width: 10%;  
+height: auto;
+}
